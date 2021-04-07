@@ -1,0 +1,24 @@
+{
+    "name": "fisss-apprentice/esfatools",
+    "description": "Tools to create test apprentices for submission to the ESFA sandbox API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tony Dunlop",
+            "email": "tony.dunlop@fisss.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "EsfaTools\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
